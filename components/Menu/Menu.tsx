@@ -5,11 +5,9 @@ import Link from 'next/link';
 
 const MenuContainer = styled.nav`
 display: flex;
-width: 100%;
 flex-direction: column;
 width: 100%;
 color: #f8f8f8;
-font-family: sans-serif;
 background-color: #242424;
 ul{
   width: 100%;
@@ -19,7 +17,7 @@ ul{
   border: solid;
   flex-direction: column;
   li{
-    font-weight: bold;
+    font-weight: 400;
     font-size: 1.2rem;
     width: 100%;
     display: flex;
@@ -42,17 +40,47 @@ export default function Menu() {
     <MenuContainer>
       <ul>
         <li>
-          <Link href="/">
+          <Link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
             <a>
           Início
           </a>
           </Link>
           </li>
-        <li>Extrato</li>
-        <li>Transferências</li>
-        <li>Pagamentos</li>
-        <li>Cartões</li>
-        <li>Crédito</li>
+        <li>
+        <Link href="/">
+            <a>
+          Extrato
+          </a>
+          </Link>
+          </li>
+        <li>
+        <Link href="/">
+            <a>
+          Transferências
+          </a>
+          </Link>
+          </li>
+        <li>
+        <Link href="/">
+            <a>
+          Pagamentos
+          </a>
+          </Link>
+          </li>
+        <li>
+        <Link href="/">
+            <a>
+          Cartões
+          </a>
+          </Link>
+          </li>
+        <li>
+        <Link href="/">
+            <a>
+          Crédito
+          </a>
+          </Link>
+          </li>
 
 
 

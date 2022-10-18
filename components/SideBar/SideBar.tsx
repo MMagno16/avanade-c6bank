@@ -15,7 +15,7 @@ export default function SideBar() {
   return (
     <SideBarContainer>
         <Profile name="Marianna Magno" role="Software Engineer" agency="0001" accountNumber="123456789" />
-        <Balance amount={190.000} />
+        <Balance amount={190000} />
         <Menu />
     </SideBarContainer>
   )
